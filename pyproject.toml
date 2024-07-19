@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nc-file-validation-tool"
+version = "0.1.0"
+description = ""
+authors = ["Hong-Kit Randy Yeung <hong-kit.r.yeung@jpl.nasa.gov>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+netcdf4 = "^1.7.1.post1"
+pyfiglet = "^1.0.2"
+python-dateutil = "^2.9.0.post0"
+tqdm = "^4.66.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
